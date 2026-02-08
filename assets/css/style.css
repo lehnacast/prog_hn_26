@@ -1,0 +1,47 @@
+body {
+    background-color: purple;
+	font-size: 14px;
+	font-size: larger; 
+}
+
+#page {
+	 background-color: lavender;
+	 margin: 20% auto;
+	 border-style: ridge;
+	 border-color: black;
+	 
+}
+
+h1 {
+	font-size: larger;
+	
+}
+
+h2 {
+	font-size: larger;
+	
+}
+
+.entete {
+	text-align: center; 
+	
+}
+
+#aboutme {
+	font-size: larger; 
+	color: fuchsia; 
+	
+}
+
+footer {
+	text-align: center;
+
+}
+
+.photo {
+    width: 150px;    
+    height: auto;   
+    object-fit: contrain;
+    margin: 0 10px;
+	
+}
