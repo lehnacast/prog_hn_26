@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="assets/js/main.js" defer></script>
+		<title>Le titre de ta page</title>
+		
+    </head>
+
+    <body>
+<div id="page">
+	<h1 align="center">Lehna Castignetti</h1>
+	<h2 align="center">Licence 3 des Sciences du Langage</h2>
+	<div class="entete">
+		<img src="./assets/img/paddi.jpeg" class="photo" />
+		<img src="./assets/img/paddidou.jpeg" class="photo" />
+
+<p>Mon CV des trois dernières années :</p>
+<table border="10Apx">
+    <thead>
+        <tr><th>année universitaire</th><th>Statut</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>2025-2026</td><td>L2</td></tr>
+        <tr><td>2024-2025</td><td>L1</td></tr>
+        <tr><td>2023-2024</td><td>Dernière année de BTS</td></tr>
+    </tbody>
+</table>
+
+<p id= "aboutme">Voici les six derniers livres que j'ai lu :</p>
+<ul>
+    <li><i>Divine darkness</i>, HugoRomance</li>
+    <li><i>Tout à moi</i>, Independently published</li>
+    <li><i>Love, signed and delivred</i>, Butterfly Edition</li>
+    <li><i>First love second chance</i>, HarperCollins</li>
+    <li><i>Black Biker</i>, Nex Rules</li>
+	<li><i>Sweet Temptation</i>, BMR</li>
+</ul>
+
+</div>
+<br />
+<br />
+<div id="container">
+            <h1 style="text-align:center;">Analyse des <span style="color:green">données</span> dans un fichier</h1>
+
+            <div id="page-wrapper">
+                <div>
+                    <span>
+                        <label for="fileInput" class="btn"><small>Sélectionner un fichier au format .txt
+                                :</small></label>
+                        <input id="fileInput" type="file" accept="text/plain" name="Fichier (.txt)" />
+                    </span>
+                </div>
+                <br />
+                <p style="text-align:center;">
+                    <small>
+                        <label for="delimID" class="mylabel">Délimiteur(s)</label>
+                        &nbsp;
+                        <input type="text" value=" ,;’'~|&#@=`-.?!%*$()[]{}_:+«»§\/" name="delim" id="delimID" size="40" />
+                    </small>
+                    <br />
+                    <small>
+                        <label for="poleID" class="mylabel">Pôle</label>
+                        &nbsp;
+                        <input type="text" placeholder="entrez un pôle..." name="pole" id="poleID" size="20" />
+                    </small>
+                    &nbsp;
+                    <small>
+                        <label for="lgID" class="mylabel">Longueur</label>
+                        &nbsp;
+                        <input type="text" value="10" name="lg" id="lgID" size="10" />
+                    </small>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <button class="submit" onclick="segText();"><span>Segmentation</span></button>
+                    <button class="submit" onclick="kujuj();"><span>Kujuj</span></button>
+                    <button class="submit" onclick="motLesPlusLongs();"><span>action 2</span></button>
+                    <button class="submit" onclick="camembert();"><span>action 3</span></button>
+                    <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 4</span></button>
+                    <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 5</span></button>
+                    <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 6</span></button>
+                </p>
+            </div>
+            <div id="logger" style="width:100%"></div>
+            <br />
+            <div id="Global">
+                <div id="fileDisplayArea"></div>
+<br/>
+                <div id="page-analysis"></div>
+            </div>
+        </div>
+
+<footer>
+  <p><a href="https://www.sorbonne-universite.fr/">Lien vers le site de Sorbonne Nouvelle.</a></p>
+</footer>
+    </body>
+</html>
