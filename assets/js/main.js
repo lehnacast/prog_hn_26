@@ -98,7 +98,7 @@ function motLesPlusLongs() {
 
     let result = mots.slice(0, 10); /* top 10 des mots les plus longs */
 
-    document.getElementById("page-analysis").innerHTML = result.join(" "); /* affichage du top 10 du mot le plus long au moins long * /
+    document.getElementById("page-analysis").innerHTML = result.join(" "); /* affichage du top 10 du mot le plus long au moins long */
 }
 
 /*bouton pour déterminer le nombre de phrases dans le texte */
