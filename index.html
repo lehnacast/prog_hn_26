@@ -1,35 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- indication du type de fichier utilisé  -->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="assets/css/style.css">
-		<script src="assets/js/main.js"></script>
+		<script src="assets/js/main.js" defer></script>
 		<title>Le titre de ta page</title>
 		
     </head>
 
     <body>
 <div id="page">
-	<h1 align="center">Lehna Castignetti</h1>
-	<h2 align="center">Licence 3 des Sciences du Langage</h2>
-	<div class="entete">
+	<h1 align="center">Lehna Castignetti</h1> <!-- titre principal  -->
+	<h2 align="center">Licence 3 des Sciences du Langage</h2> <!-- titre secondaire  -->
+	<div class="entete"> <!-- chargement des 2 photos   -->
 		<img src="./assets/img/paddi.jpeg" class="photo" />
 		<img src="./assets/img/paddidou.jpeg" class="photo" />
 
-<p>Mon CV des trois dernières années :</p>
+<p>Mon CV des trois dernières années :</p> <!-- Liste de ce que j'ai fais comme étude ces 3 dernières années  -->
 <table border="10Apx">
     <thead>
         <tr><th>année universitaire</th><th>Statut</th></tr>
     </thead>
     <tbody>
-        <tr><td>2022-2023</td><td>L2</td></tr>
-        <tr><td>2021-2022</td><td>L1</td></tr>
-        <tr><td>2020-2021</td><td>Dernière année de BTS</td></tr>
+        <tr><td>2025-2026</td><td>L2</td></tr>
+        <tr><td>2024-2025</td><td>L1</td></tr>
+        <tr><td>2023-2024</td><td>Dernière année de BTS</td></tr>
     </tbody>
 </table>
 
-<p id= "aboutme">Voici les six derniers livres que j'ai lu :</p>
+<p id= "aboutme">Voici les six derniers livres que j'ai lu :</p> <!-- la liste des diférents livres -->
 <ul>
     <li><i>Divine darkness</i>, HugoRomance</li>
     <li><i>Tout à moi</i>, Independently published</li>
@@ -47,8 +47,8 @@
 
             <div id="page-wrapper">
                 <div>
-                    <span>
-                        <label for="fileInput" class="btn"><small>Sélectionner un fichier au format .txt
+                    <span> 
+                        <label for="fileInput" class="btn"><small>Sélectionner un fichier au format .txt <!-- Bouton pour charger un fichier  -->
                                 :</small></label>
                         <input id="fileInput" type="file" accept="text/plain" name="Fichier (.txt)" />
                     </span>
@@ -76,10 +76,10 @@
                     <br />
                     <br />
                     <br />
-                    <button class="submit" onclick="segText();"><span>Segmentation</span></button>
-                    <button class="submit" onclick="kujuj();"><span>Kujuj</span></button>
-                    <button class="submit" onclick="motLesPlusLongs();"><span>action 2</span></button>
-                    <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 3</span></button>
+                    <button class="submit" onclick="segText();"><span>Segmentation</span></button> <!-- Boutons d'action  -->
+                    <button class="submit" onclick="kujuj();"><span>Kujuj</span></button> <!-- Boutons d'action  -->
+                    <button class="submit" onclick="motLesPlusLongs();"><span>Mots les plus longs</span></button> <!-- Boutons d'action  -->
+                    <button class="submit" onclick="nbPhrases();"><span>Nombre de phrases</span></button> <!-- Boutons d'action  -->
                     <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 4</span></button>
                     <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 5</span></button>
                     <button class="submit" onclick="alert('Je ne fais rien, changez-moi !')"><span>action 6</span></button>
